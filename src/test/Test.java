@@ -5,8 +5,7 @@ import strategy.StrategyContext;
 
 public class Test {
 	public static void main(String[] args) throws IOException {
-		StrategyContext context = new StrategyContext();
-		System.out.println(context.encry("sfsdf", "PasswordAlgorithm"));
-		System.out.println(context.decry("sada", "RedisKeyAlgorithm"));
+		System.out.println(StrategyContext.encry("sfsdf", "PasswordAlgorithm"));
+		System.out.println(StrategyContext.decry("sada", "RedisKeyAlgorithm"));
 	}
 }
